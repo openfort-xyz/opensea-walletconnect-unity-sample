@@ -5,7 +5,7 @@ import { PlayFabServer } from "playfab-sdk"; // Import PlayFab Server SDK
 const OF_API_KEY = process.env.OF_API_KEY;
 const PLAYFAB_SECRET_KEY = process.env.PLAYFAB_SECRET_KEY;
 const PLAYFAB_TITLE_ID = process.env.PLAYFAB_TITLE_ID;
-const CHAIN_ID = 11155111; // Sepolia
+const CHAIN_ID = 11155111;
 
 if (!OF_API_KEY || !PLAYFAB_SECRET_KEY || !PLAYFAB_TITLE_ID) {
     throw new Error("Required environment variables missing: Ensure OF_API_KEY, PLAYFAB_SECRET_KEY, and PLAYFAB_TITLE_ID are set.");

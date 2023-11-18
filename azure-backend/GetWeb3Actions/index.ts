@@ -45,9 +45,14 @@ const httpTrigger: AzureFunction = async function (context: Context, req: HttpRe
         return;
     }
 
-    // Process decodedData to ensure it is always a JSON string
+    // Process decodedData and rename _from to from
     response.data.forEach(action => {
-        action.decodedData = JSON.stringify(action.decodedData);
+      action.decodedData = JSON.stringify(action.decodedData);
+      
+      if (action._from) {
+          action.from = action._from;
+          delete action._from; // Remove the old field
+      }
     });
 
     context.res = { status: 200, body: response };

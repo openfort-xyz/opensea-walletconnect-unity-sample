@@ -5,7 +5,7 @@ import Openfort, {
 } from "@openfort/openfort-node";
 
 const OF_API_KEY = process.env.OF_API_KEY;
-const CHAIN_ID = 11155111; // Sepolia
+const CHAIN_ID = 11155111;
 const OF_NFT_CONTRACT = process.env.OF_NFT_CONTRACT;
 const OF_SPONSOR_POLICY = process.env.OF_SPONSOR_POLICY;
 

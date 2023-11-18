@@ -149,6 +149,7 @@ public class Web3ConnectionsController : MonoBehaviour
     private void OnSubmitWeb3ActionError(PlayFabError error)
     {
         approvePanel.SetActive(true);
+        statusText.text = "";
         Debug.Log(error.ErrorMessage);
     }
     #endregion

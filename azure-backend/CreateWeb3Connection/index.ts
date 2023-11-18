@@ -2,7 +2,7 @@ import { AzureFunction, Context, HttpRequest } from "@azure/functions";
 import Openfort, { CreateWeb3ConnectionRequest } from "@openfort/openfort-node";
 
 const openfort = new Openfort(process.env.OF_API_KEY);
-const CHAIN_ID = 11155111; // Sepolia
+const CHAIN_ID = 11155111;
 
 function isValidRequestBody(body: any): boolean {
   return typeof body?.FunctionArgument?.playerId === 'string' &&
