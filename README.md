@@ -14,13 +14,15 @@ By integrating the [Openfort SDK](https://github.com/openfort-xyz/openfort-node)
 ![Integration workflow](/docs-img/playfab-opensea-workflow-img.png)
 
 ## Prerequisites
-+ Setup Openfort
++ **Setup Openfort**
   + [Add a Contract](https://dashboard.openfort.xyz/assets/new)
+    
     This sample requires a contract to run. We use [0x51216BFCf37A1D2002A9F3290fe5037C744a6438](https://sepolia.etherscan.io/address/0x51216bfcf37a1d2002a9f3290fe5037c744a6438) (NFT contract deployed in 11155111 Sepolia). You can use this for the guide:
 
     ![Alt text](/docs-img/playfab-opensea-img.png)
 
   + [Add a Policy](https://dashboard.openfort.xyz/policies/new)
+    
     We aim to cover gas fees for users. Set a new gas policy:
 
     ![Alt text](/docs-img/playfab-opensea-img-1.png)
@@ -29,9 +31,9 @@ By integrating the [Openfort SDK](https://github.com/openfort-xyz/openfort-node)
 
     ![Alt text](/docs-img/playfab-opensea-img-2.png)
 
-+ [Deploy Azure Functions](https://github.com/openfort-xyz/playfab-unity-sample#deploy-azure-backend)
-+ [Register Azure Functions in PlayFab](https://github.com/openfort-xyz/playfab-unity-sample#register-azure-functions) 
-+ [Set up Azure Backend](https://github.com/openfort-xyz/playfab-unity-sample#set-up-azure-backend)
++ [**Deploy Azure Functions**](https://github.com/openfort-xyz/playfab-unity-sample#deploy-azure-backend)
++ [**Register Azure Functions in PlayFab**](https://github.com/openfort-xyz/playfab-unity-sample#register-azure-functions) 
++ [**Set up Azure Backend**](https://github.com/openfort-xyz/playfab-unity-sample#set-up-azure-backend)
 
 ## Set up Unity Client
 
