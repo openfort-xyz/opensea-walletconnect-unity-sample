@@ -3,7 +3,7 @@
 ## Overview
 In this sample, we'll dig into how to list your NFT to Opensea from your game using Openfort's [Web3 Connections API features](https://www.openfort.xyz/docs/reference/api/create-a-web3-connection-object).
 
-Web3Connections allows you to connect your in-game wallet to any application that supports [WalletConnect](https://walletconnect.io) like NFT marketplaces (e.g. [OpenSea](https://opensea.io/)). The magic of this interaction is that you don't need any third-party wallet SDK in the Unity client, as Openfort takes care of the wallet creation and connection to the NFT marketplace in a frictionless way. 
+Web3Connections allows you to connect your in-game wallet to any application that supports [WalletConnect](https://walletconnect.io) like NFT marketplaces (e.g. [OpenSea](https://opensea.io/)). The magic of this integration is that you don't need any third-party wallet SDK in the Unity client, as Openfort takes care of the wallet creation and connection to the NFT marketplace in a frictionless way. 
 
 We'll be using [PlayFab](https://playfab.com/) as the backend service. PlayFab is a service operated by Microsoft for game developers, offering tools for live game management, all powered by Azure's cloud infrastructure.
 
