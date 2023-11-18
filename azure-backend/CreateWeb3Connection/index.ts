@@ -2,11 +2,10 @@ import { AzureFunction, Context, HttpRequest } from "@azure/functions";
 import Openfort, { CreateWeb3ConnectionRequest } from "@openfort/openfort-node";
 
 const openfort = new Openfort(process.env.OF_API_KEY);
-const CHAIN_ID = 11155111;
+const CHAIN_ID = 11155111; // Sepolia
 
 function isValidRequestBody(body: any): boolean {
   return typeof body?.FunctionArgument?.playerId === 'string' &&
-         typeof body?.FunctionArgument?.chainId === 'number' &&
          typeof body?.FunctionArgument?.uri === 'string' &&
          body?.CallerEntityProfile?.Lineage?.MasterPlayerAccountId;
 }
@@ -21,10 +20,9 @@ const httpTrigger: AzureFunction = async function (context: Context, req: HttpRe
       return;
     }
 
-    const { playerId, chainId, uri } = req.body.FunctionArgument;
+    const { playerId, uri } = req.body.FunctionArgument;
 
     context.log(playerId);
-    context.log(chainId);
     context.log(uri);
 
     const connectionRequest: CreateWeb3ConnectionRequest = {

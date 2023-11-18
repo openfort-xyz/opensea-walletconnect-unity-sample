@@ -22,14 +22,12 @@ public class Web3ConnectionsController : MonoBehaviour
 
     public void Activate()
     {
-        //TODO refresh and reject actions
-        
         view.SetActive(true);
     }
     
     public void OnConnectBtnClickHandler()
     {
-        CreateWeb3Connection(OpenfortController.Instance.GetPlayerId(), 11155111, urlInput.text);    
+        CreateWeb3Connection(OpenfortController.Instance.GetPlayerId(), urlInput.text);    
     }
 
     public void OnApproveSellBtnClickHandler()
@@ -39,7 +37,7 @@ public class Web3ConnectionsController : MonoBehaviour
     }
 
     #region AZURE_FUNCTION_CALLS
-    private void CreateWeb3Connection(string playerId, int chainId, string uri)
+    private void CreateWeb3Connection(string playerId, string uri)
     {
         createPanel.SetActive(false);
         statusText.text = "Creating Web3 Connection...";
@@ -50,7 +48,6 @@ public class Web3ConnectionsController : MonoBehaviour
             FunctionParameter = new
             {
                 playerId,
-                chainId,
                 uri
             }
         };
