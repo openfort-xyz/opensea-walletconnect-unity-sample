@@ -1,4 +1,4 @@
-# Openfort-PlayFab Integration in Unity
+# Connect to Opensea through Wallet Connect in Unity
 
 ## Overview
 [PlayFab](https://playfab.com/) is a backend service provided by Microsoft for game developers, offering tools for live game management, all powered by Azure's cloud infrastructure.
