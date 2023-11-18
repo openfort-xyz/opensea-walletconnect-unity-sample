@@ -1,11 +1,13 @@
 # Connect to Opensea through Wallet Connect in Unity
 
 ## Overview
-[PlayFab](https://playfab.com/) is a backend service provided by Microsoft for game developers, offering tools for live game management, all powered by Azure's cloud infrastructure.
+In this sample we'll dig into how to list your NFT to Opensea from your game using Openfort's [Web3 Connections API features](https://www.openfort.xyz/docs/reference/api/create-a-web3-connection-object).
+
+Web3Connections allows you to connect your in-game wallet to any application that supports [WalletConnect](https://walletconnect.io) like NFT marketplaces (e.g. [OpenSea](https://opensea.io/)).
+
+In this sample we'll be using [PlayFab](https://playfab.com/) as the backend service. PlayFab is a service operated by Microsoft for game developers, offering tools for live game management, all powered by Azure's cloud infrastructure.
 
 By integrating the [Openfort SDK](https://github.com/openfort-xyz/openfort-node) into Azure Functions, we establish a seamless connection to PlayFab. Unity clients using the PlayFab Unity SDK can tap into these functions, accessing the full range of Openfort features within the game environment.
-
-In this sample we especially dig into [Web3 Connections API features](https://www.openfort.xyz/docs/reference/api/create-a-web3-connection-object), being able to connect with an NFT marketplace - like [OpenSea](https://opensea.io/) - and list your NFTs from the game frictionlessly.
 
 ## Application Workflow
 
