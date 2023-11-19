@@ -56,7 +56,7 @@ Play the **Login** scene, opt for ***Register***, provide an email and password,
 
 Select ***Mint***. After a brief period, you should see a representation of your newly minted NFT:
 
-![Alt text](/docs-img/image.png)
+![Alt text](/docs-img/playfab-opensea-wc-img.png)
 
 In the [Openfort Players dashboard](https://dashboard.openfort.xyz/players), a new player entry should be visible. On selecting this player:
 
@@ -72,51 +72,51 @@ Additionally, by choosing your **Sepolia Account** and viewing ***NFT Transfers*
 
 In Unity, click on ***List NFTs***:
 
-![Alt text](/docs-img/image-11.png)
+![Alt text](/docs-img/playfab-opensea-wc-img-11.png)
 
 Go to [OpenSea](https://testnets.opensea.io/) and choose ***Login***:
 
-![Alt text](/docs-img/image-2.png)
+![Alt text](/docs-img/playfab-opensea-wc-img-2.png)
 
 Then select ***WalletConnect*** and click on the icon to copy the connection URL:
 
-![Alt text](/docs-img/image-3.png)
+![Alt text](/docs-img/playfab-opensea-wc-img-3.png)
 
 Back to Unity, paste the URL and choose ***Create***:
 
-![Alt text](/docs-img/image-4.png)
+![Alt text](/docs-img/playfab-opensea-wc-img-4.png)
 
 In OpenSea, a welcome panel will pop up. Choose ***Accept and sign***:
 
-![Alt text](/docs-img/image-8.png)
+![Alt text](/docs-img/playfab-opensea-wc-img-8.png)
 
 Go to your profile and you will find your NFT. Choose ***List for sale***:
 
-![Alt text](/docs-img/image-5.png)
+![Alt text](/docs-img/playfab-opensea-wc-img-5.png)
 
 Set a price and a duration and choose ***Complete listing***:
 
-![Alt text](/docs-img/image-6.png)
+![Alt text](/docs-img/playfab-opensea-wc-img-6.png)
 
 As your first NFT collection, you will need to approve it:
 
-![Alt text](/docs-img/image-12.png)
+![Alt text](/docs-img/playfab-opensea-wc-img-12.png)
 
 Back in Unity, select ***Approve***:
 
-![Alt text](/docs-img/image-14.png)
+![Alt text](/docs-img/playfab-opensea-wc-img-14.png)
 
 After a few seconds OpenSea will let you know the collection approval has been successful:
 
-![Alt text](/docs-img/image-9.png)
+![Alt text](/docs-img/playfab-opensea-wc-img-9.png)
 
 Now go back to Unity and ***Approve*** the listing:
 
-![Alt text](/docs-img/image-14.png)
+![Alt text](/docs-img/playfab-opensea-wc-img-14.png)
 
 Finally, in OpenSea you will see the confirmation of your listing:
 
-![Alt text](/docs-img/image-13.png)
+![Alt text](/docs-img/playfab-opensea-wc-img-13.png)
 
 ## Conclusion
 
